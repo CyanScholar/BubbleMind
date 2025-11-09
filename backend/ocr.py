@@ -5,8 +5,8 @@ import base64
 import os
 
 # 你的腾讯云API密钥
-TENCENT_SECRET_ID = os.getenv("TENCENT_SECRET_ID", "AKIDb5NTLyNk28zhEZfWny4zlS2RcdR1QcbM")
-TENCENT_SECRET_KEY = os.getenv("TENCENT_SECRET_KEY", "c9XjfMp5cz9DF80nVEwYzKbmv00xkV3R")
+TENCENT_SECRET_ID = os.getenv("TENCENT_SECRET_ID", "xxxxxxxxxxxxxx")
+TENCENT_SECRET_KEY = os.getenv("TENCENT_SECRET_KEY", "xcxxxxxxxxxxxxxx")
 
 def tencent_ocr_high_precision(image_bytes):
     print("调用腾讯OCR")
